@@ -62,5 +62,5 @@ public class PersonalAccount implements Account{
         return str;
 
     }
-    
+
 }
