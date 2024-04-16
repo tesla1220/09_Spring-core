@@ -31,6 +31,7 @@ public class ContextConfiguration {
     @Bean
     @Scope("prototype")
     public ShoppingCart cart() {
+
         return new ShoppingCart();
     }
 
